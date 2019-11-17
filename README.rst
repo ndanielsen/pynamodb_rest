@@ -16,7 +16,7 @@ Pynamodb Rest
 
 
 
-A Python baased project to easily serve up serverless REST apis utilizing the wonderful Pynamodb package
+A Python based project to easily serve up serverless REST apis utilizing the wonderful Pynamodb package
 
 
 * Free software: MIT license
