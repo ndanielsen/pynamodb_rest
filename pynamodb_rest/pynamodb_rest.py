@@ -19,7 +19,7 @@ class PynamodbRestMixin:
 
     def save(self, conditional_operator=None, **expected_values):
         self.updatedAt = datetime.utcnow()
-        super(BaseModel, self).save()
+        super(PynamodbRestMixin, self).save()
 
     def add_items(self, data):
         for name in self.get_attributes().keys():
