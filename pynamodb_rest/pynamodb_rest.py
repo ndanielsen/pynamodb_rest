@@ -4,9 +4,14 @@
 
 from datetime import datetime
 
+from pynamodb_rest.http import http_response
+
+
 from pynamodb.attributes import (
     UTCDateTimeAttribute,
 )
+
+
 
 class PynamodbRestMixin:
 
@@ -52,3 +57,12 @@ class PynamodbRestMixin:
         self.update(actions=actions)
         self.save()
         return self
+
+
+    def _response(self, body, status_code=200)
+
+        return http_response(body, status_code=200)
+
+
+
+
