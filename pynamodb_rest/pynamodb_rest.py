@@ -59,7 +59,7 @@ class PynamodbRestMixin:
         return self
 
 
-    def _response(self, body, status_code=200)
+    def _response(self, body, status_code=200):
 
         return http_response(body, status_code=200)
 
