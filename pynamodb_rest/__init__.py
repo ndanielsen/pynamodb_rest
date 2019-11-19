@@ -4,7 +4,4 @@
 
 __author__ = """Nathan Danielsen"""
 __email__ = 'nathan.danielsen@gmail.com'
-__version__ = '0.0.2'
-
-
-from pynamodb_rest import PynamodbRestMixin
+__version__ = '0.0.3'
